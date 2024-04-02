@@ -6,6 +6,9 @@
 " * get the vimrc to be editable using mkOutOfStoreSymlink
 " split on <leader>s and <leader>S
 " get a better status bar and color scheme
+  " look into Lualine
+  " look into lightline?
+" 
 
 " --------------------------------------------------
 " * neovim configuration file notes:
