@@ -75,10 +75,10 @@ alias tmk='tmux kill-session -t'
 alias tmK='tmux kill-server'
 
 # home manager
-alias hms='cd ~/gitprojects/personal/config/nix/ && nix-shell --run "home-manager switch" && cd -'
-alias hmsb='cd ~/gitprojects/personal/config/nix/ && nix-shell --run "home-manager switch -b backup" && cd -'
-alias hme='$EDITOR ~/gitprojects/personal/config/nix/home.nix'
-alias nce='$EDITOR /etc/nixos/configuration.nix'
+alias hms='cd ~/gitprojects/personal/config/ && nix-shell --run "home-manager switch" && cd -'
+alias hmsb='cd ~/gitprojects/personal/config/ && nix-shell --run "home-manager switch -b backup" && cd -'
+alias hme='cd ~/gitprojects/personal/ && $EDITOR ~/gitprojects/personal/config/home.nix'
+alias nce='cd ~/gitprojects/personal/ && $EDITOR /etc/nixos/configuration.nix'
 
 
 # bluetooth
