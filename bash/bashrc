@@ -1,3 +1,10 @@
+# BASH TODO 
+# make something that will open a file with the current date in the format 240307.md
+# configure a nerdfont?
+
+
+
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

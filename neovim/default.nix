@@ -23,6 +23,8 @@
       # tmux navigator
       # also depends on tmux plugin in tmux config
       vim-tmux-navigator
+
+      vim-commentary # comment out lines
     ];
     extraConfig = builtins.readFile ./vimrc;
     extraLuaConfig = builtins.readFile ./vim.lua;

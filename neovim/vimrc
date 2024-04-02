@@ -4,6 +4,8 @@
 " * make splitting keybinds so that ctrl + enter splits horizontally and ctrl + shift + enter splits vertically
 " * then shift enter just opens a new tab
 " * get the vimrc to be editable using mkOutOfStoreSymlink
+" split on <leader>s and <leader>S
+" get a better status bar and color scheme
 
 " --------------------------------------------------
 " * neovim configuration file notes:
@@ -159,24 +161,25 @@ set shiftwidth=2
 
 " expirimental tmux navigator
 let g:tmux_navigator_no_mappings = 1
+" let  g:tmux_navigator_no_wrap = 1
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-" let  g:tmux_navigator_no_wrap = 1
 noremap <silent> <C-h> :<C-U>TmuxNavigateLeft<cr>
 noremap <silent> <C-j> :<C-U>TmuxNavigateDown<cr>
 noremap <silent> <C-k> :<C-U>TmuxNavigateUp<cr>
 noremap <silent> <C-l> :<C-U>TmuxNavigateRight<cr>
 noremap <silent> <C-/> :<C-U>TmuxNavigatePrevious<cr>
 "
+"
 " mapping with meta 
-nnoremap <M-left> <C-w>h
-nnoremap <M-down> <C-w>j
-nnoremap <M-up> <C-w>k
-nnoremap <M-right> <C-w>l
-noremap <silent> <M-left> :<C-U>TmuxNavigateLeft<cr>
-noremap <silent> <M-down> :<C-U>TmuxNavigateDown<cr>
-noremap <silent> <M-up> :<C-U>TmuxNavigateUp<cr>
-noremap <silent> <M-right> :<C-U>TmuxNavigateRight<cr>
+nnoremap <M-Left> <C-w>h
+nnoremap <M-Down> <C-w>j
+nnoremap <M-Up> <C-w>k
+nnoremap <M-Right> <C-w>l
+noremap <silent> <M-Left>  :<C-U>TmuxNavigateLeft<cr>
+noremap <silent> <M-Down>  :<C-U>TmuxNavigateDown<cr>
+noremap <silent> <M-Up>    :<C-U>TmuxNavigateUp<cr>
+noremap <silent> <M-Right> :<C-U>TmuxNavigateRight<cr>
