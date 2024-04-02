@@ -1,0 +1,402 @@
+{
+    "background": {
+      "id": "wXUFZcGM4yN9",
+      "key": "background/unsplash",
+      "display": {
+        "blur": 0,
+        "luminosity": -0.2
+      }
+    },
+    "data/AsvQNSZx0h0I": {
+      "mode": "digital",
+      "hour12": true,
+      "showDate": false,
+      "showMinutes": true,
+      "showSeconds": true,
+      "showDayPeriod": false,
+      "timeZone": null,
+      "name": ""
+    },
+    "data/MsdyyLsxdUgp": {
+      "columns": 3,
+      "links": [
+        {
+          "url": "https://www.youtube.com/",
+          "name": "Youtube",
+          "icon": "youtube"
+        },
+        {
+            "url": "https://mail.google.com/mail/u/0/",
+            "name": "Gmail",
+            "icon": "mail"
+        },
+        {
+          "url": "https://csn.instructure.com/login/ldap",
+          "name": "Canvas",
+          "icon": "home"
+        },
+        {
+            "url": "https://discord.com/channels/@me/638173138030690337",
+            "name": "Discord",
+            "icon": "message-square"
+        },
+        {
+            "url": "https://keep.google.com/",
+            "name": "Keep notes",
+            "icon": "paperclip"
+        },
+        {
+            "url": "https://outlook.office365.com/mail/",
+            "name": "Outlook",
+            "icon": "mail"
+        },
+        {
+            "url": "https://messages.google.com/web/conversations",
+            "name": "Messages",
+            "icon": "message-circle"
+        },
+        {
+          "url": "https://go.csn.edu/LoginPolicy.jsp",
+          "name": "Gocsn",
+          "icon": "book"
+        },
+        {
+          "url": "https://github.com/jjamesmartiin/personal",
+          "name": "Github",
+          "icon": "github"
+        },
+        {
+            "url": "https://drive.google.com/drive/my-drive",
+            "name": "Drive",
+            "icon": "folder"
+          },
+        {
+            "url": "https://trade.thinkorswim.com/",
+            "name": "TOS",
+            "icon": "bar-chart"
+        },
+        {
+            "url": "https://invest.ameritrade.com/grid/p/site#r=home",
+            "name": "TDA",
+            "icon": "bar-chart"
+        },
+        {
+          "url": "https://gitlab.pololu.work/it/todo/-/issues",
+          "name": "It/todo",
+          "icon": "git-branch"
+        },
+        {
+          "url": "https://gitlab.pololu.work/it/system2",
+          "name": "It/system2",
+          "icon": "git-branch"
+        },
+
+        {
+          "url": "https://gitlab.pololu.work/it/server_setup",
+          "name": "It/server_setup",
+          "icon": "git-branch"
+        },
+
+        {
+          "url": "https://em.pololu.work/c/operations-plan/5",
+          "name": "EM Calendar",
+          "icon": "calendar"
+        },
+
+        {
+          "url": "https://em.pololu.work/new",
+          "name": "EM Forum",
+          "icon": "info"
+        },
+
+        {
+          "url": "https://wiki.pololu.work",
+          "name": "Wiki",
+          "icon": "book-open"
+        },
+        {
+          "url": "https://mattermost.pololu.work",
+          "name": "Mattermost",
+          "icon": "message-square"
+        }
+      ],
+      "visible": true,
+      "linkOpenStyle": false
+    },
+    "data/ciFBIuIt3Qn8": {
+      "items": [
+        {
+          "contents": "new task to make shipping not suck lol",
+          "id": "oHk8n0f26ce464mXNZsCU",
+          "completed": true
+        },
+        {
+          "contents": "this is a place to quickly jot something down",
+          "id": "vj7SwJghNeY88G4tkBtBI",
+          "completed": true
+        },
+        {
+          "contents": "especially for later",
+          "id": "9Eusv_eDUnc4T9yjWijPm",
+          "completed": true
+        },
+        {
+          "contents": "e",
+          "id": "pAidLNX8lkWI2TIoj15Bf",
+          "completed": true
+        },
+        {
+          "contents": "easdf",
+          "id": "Z1La8NoyAVx8ezjC5HwlB",
+          "completed": true
+        },
+        {
+          "contents": "asdfasdf",
+          "id": "BzEMk7hQYe-v-fwbQIGp-",
+          "completed": true
+        },
+        {
+          "contents": "asjdkfhasdf",
+          "id": "zDsMR2km9TDKfzp-XwC3E",
+          "completed": true
+        },
+        {
+          "contents": "ajsdfhas",
+          "id": "6Lh43v9YLrfQD-F_Bzu3C",
+          "completed": true
+        },
+        {
+          "contents": "ajsldhfas",
+          "id": "PYVlfp67r5h4ytTyfEa9Z",
+          "completed": true
+        },
+        {
+          "contents": "asdfhjasdf",
+          "id": "O6SRkKQmEJSvbwuyTnztb",
+          "completed": true
+        },
+        {
+          "contents": "aksldfj",
+          "id": "UxONHXydUqaM8V1BEdo6A",
+          "completed": true
+        },
+        {
+          "contents": "asdf",
+          "id": "xYjzlrSKiHxxN9WoY28kr",
+          "completed": true
+        },
+        {
+          "contents": "asdafdsf",
+          "id": "1CAVZgmhwRNDdJF2_SvQm",
+          "completed": true
+        },
+        {
+          "contents": "sadfklasjdfl;asdkjf",
+          "id": "0Jfon2i4qRE7VObuS6NC7",
+          "completed": true
+        },
+        {
+          "contents": "adsfkljasd;f",
+          "id": "u_BO6483C9_XNGAzfMTqs",
+          "completed": true
+        },
+        {
+          "contents": "asdjcal;skdfja;lsdf",
+          "id": "Fej9LuviJAB13LtdRL1Ku",
+          "completed": true
+        },
+        {
+          "contents": "c",
+          "id": "QB2fUMHe2kHdQDtd9PEpx",
+          "completed": true
+        },
+        {
+          "contents": ".c",
+          "id": "gPTjMnhFV9rbrAQ74NZpz",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "xQKPOTl09ZzYJ4j1mHMi3",
+          "completed": true
+        },
+        {
+          "contents": ".c",
+          "id": "PptvGixGfkIDbrun9Odqf",
+          "completed": true
+        },
+        {
+          "contents": ".c.c",
+          "id": "k9AY90mY-HJ9hGuKh8FFm",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "LWTFZfkEYWc0NDahxOSSY",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "rJp4gCu8_J_2k6lA8g5SP",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "0I0hTkf0Cvla_pAyhiaw2",
+          "completed": true
+        },
+        {
+          "contents": ".c",
+          "id": "nHllmHNjly9eH1y0lHfpo",
+          "completed": true
+        },
+        {
+          "contents": ".c",
+          "id": "BDhPM-rnSgDZarr0CvmQL",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "xhVPI8-qde7jZIL190Sex",
+          "completed": true
+        },
+        {
+          "contents": ".c.",
+          "id": "tXHS3uoyaSuffGF4RJ0o5",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "s6-1jW-Gx1BXqyDk3Ts2A",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "Z40auqSslwx--UO8JnAoe",
+          "completed": true
+        },
+        {
+          "contents": ".c",
+          "id": "0fTc8lVWP-aBPYnk3nj3g",
+          "completed": true
+        },
+        {
+          "contents": ".c",
+          "id": "C3kf3s2rMF6sau3NfsCJN",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "bnnp7grruCLwuXJGMO-4e",
+          "completed": true
+        },
+        {
+          "contents": ".c",
+          "id": "FK-lUzdWAmL91qntVoN49",
+          "completed": true
+        },
+        {
+          "contents": ".c.",
+          "id": "UGqAUjbehJLKTInCZ0hii",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "eaiM6RNjhLhza6kao4U8Q",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "vcJuDIKGXP9wlkx4oNKlI",
+          "completed": true
+        },
+        {
+          "contents": ".",
+          "id": "dt6DJjEF5Dzy9RaVVrMeM",
+          "completed": true
+        },
+        {
+          "contents": ".c..",
+          "id": "TtHne4wDtFwoKRCcAHvJj",
+          "completed": true
+        }
+      ],
+      "show": 8,
+      "keyBind": "c"
+    },
+    "data/uITu_SGq3_GY": {
+      "showDetails": true,
+      "units": "si",
+      "latitude": 36.0625,
+      "longitude": -115.0834,
+      "name": "Las Vegas"
+    },
+    "data/wXUFZcGM4yN9": {
+      "by": "official",
+      "collections": "",
+      "featured": false,
+      "paused": false,
+      "search": "circuit board",
+      "topics": "_8zFHuhRhyo",
+      "timeout": 0
+    },
+    "focus": false,
+    "locale": "en",
+    "timeZone": null,
+    "widget/50dNsEZEVggu": null,
+    "widget/6paJ5P9cydGJ": null,
+    "widget/8fBGP7uG5PoH": null,
+    "widget/9s94JDoHQrD-": null,
+    "widget/AsvQNSZx0h0I": {
+      "id": "AsvQNSZx0h0I",
+      "key": "widget/time",
+      "order": 0,
+      "display": {
+        "position": "topCentre",
+        "fontSize": 16
+      }
+    },
+    "widget/E-GjjEpfGLue": null,
+    "widget/GNIio3OFOgok": null,
+    "widget/KRuDhbe7qkny": null,
+    "widget/MsdyyLsxdUgp": {
+      "id": "MsdyyLsxdUgp",
+      "key": "widget/links",
+      "order": 2,
+      "display": {
+        "position": "middleCentre",
+        "fontSize": 36,
+        "fontWeight": 700
+      }
+    },
+    "widget/XJI1u2DEd7hb": null,
+    "widget/ciFBIuIt3Qn8": {
+      "id": "ciFBIuIt3Qn8",
+      "key": "widget/todo",
+      "order": 3,
+      "display": {
+        "position": "middleCentre",
+        "fontSize": 24
+      }
+    },
+    "widget/default-greeting": null,
+    "widget/default-time": null,
+    "widget/dgmWuFMu_AsE": null,
+    "widget/f92u4jMUbKs7": null,
+    "widget/g3kJv4fm_LV9": null,
+    "widget/iOc2WJ0VAmC9": null,
+    "widget/uITu_SGq3_GY": {
+      "id": "uITu_SGq3_GY",
+      "key": "widget/weather",
+      "order": 1,
+      "display": {
+        "position": "topRight",
+        "fontSize": 46,
+        "fontWeight": 700
+      }
+    },
+    "widget/xsgIxN3jfzAj": null,
+    "widget/y01FJQUgqxrx": null,
+    "widget/ySpVZThahofX": null,
+    "version": 3
+  }

@@ -1,0 +1,204 @@
+// Place your key bindings in this file to override the defaults
+[
+    { "key": "ctrl+v",                  "command": "-extension.vim_ctrl+v"},
+    { "key": "ctrl+h",                  "command": "-extension.vim_ctrl+h"},
+    { "key": "ctrl+j",                  "command": "-extension.vim_ctrl+j"},
+    { "key": "ctrl+k",                  "command": "-extension.vim_ctrl+k"},
+    { "key": "ctrl+l",                  "command": "-extension.vim_ctrl+l"},
+    { "key": "ctrl+a",                  "command": "-extension.vim_ctrl+a"},
+    { "key": "ctrl+c",                  "command": "-extension.vim_ctrl+c"},
+    { "key": "ctrl+f",                  "command": "-extension.vim_ctrl+f"},
+    { "key": "ctrl+w",                  "command": "-extension.vim_ctrl+w"},
+    { "key": "ctrl+x",                  "command": "-extension.vim_ctrl+x"},
+    { "key": "ctrl+z",                  "command": "-extension.vim_ctrl+z"},
+    // { "key": "shift+alt+y",             "command": "workbench.action.maximizeEditor"},
+    { "key": "ctrl+alt+win+j",          "command": "workbench.action.toggleMaximizedPanel"},
+    { "key": "ctrl+tab",                "command": "workbench.action.nextEditor" },
+    { "key": "ctrl+shift+tab",          "command": "workbench.action.previousEditor" },
+    { "key": "ctrl+g",                  "command": "-extension.vim_ctrl+g" },
+    { "key": "ctrl+enter",              "command": "interactive.execute" },
+    { "key": "ctrl+enter",              "command": "-interactive.execute",                      "when": "resourceScheme == 'vscode-interactive'" },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "terminal.visible || view.terminal.visible || !terminal.visible"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-solargraph.search"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "alt+w",
+        "command": "markdown.showPreview",
+        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-markdown.showPreview",
+        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+    },
+    {
+        "key": "shift+alt+w",
+        "command": "markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-markdown.showPreviewToSide",
+        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+    },
+    {
+        "key": "f5",
+        "command": "-debug.openView",
+        "when": "!debuggersAvailable"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
+        "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker",
+        "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+        "key": "shift+tab",
+        "command": "-jumpToPrevSnippetPlaceholder",
+        "when": "editorTextFocus && hasPrevTabstop && inSnippetMode"
+    },
+    {
+        "key": "shift+tab",
+        "command": "markdown.extension.onShiftTabKey",
+        "when": "editorTextFocus && markdown.extension.editor.cursor.inList && !editorHasMultipleSelections && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !markdown.extension.editor.cursor.inFencedCodeBlock && !markdown.extension.editor.cursor.inMathEnv && !suggestWidgetVisible && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "shift+tab",
+        "command": "-markdown.extension.onShiftTabKey",
+        "when": "editorTextFocus && markdown.extension.editor.cursor.inList && !editorHasMultipleSelections && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !markdown.extension.editor.cursor.inFencedCodeBlock && !markdown.extension.editor.cursor.inMathEnv && !suggestWidgetVisible && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "shift+tab",
+        "command": "extension.vim_shift+tab",
+        "when": "editorFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "shift+tab",
+        "command": "-extension.vim_shift+tab",
+        "when": "editorFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "shift+tab",
+        "command": "acceptAlternativeSelectedSuggestion",
+        "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "-acceptAlternativeSelectedSuggestion",
+        "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "outdent",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "-outdent",
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "key": "ctrl+l p",
+        "command": "-extension.openPrGitProvider"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-extension.vim_ctrl+p",
+        "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-extension.vim_ctrl+n",
+        "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-n> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.files.newFile"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "extension.pasteImage",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "-extension.pasteImage",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "cSpell.goToNextSpellingIssueAndSuggest"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "github.copilot.interactiveEditor.generate"
+    },
+
+
+
+
+]

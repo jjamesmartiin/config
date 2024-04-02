@@ -1,0 +1,89 @@
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# bash colors / prompt
+source "/home/$USER/.nix-profile/etc/profile.d/hm-session-vars.sh"
+
+export PS1="\u\[$(tput sgr0)\]\[\033[38;5;24m\]@\[$(tput sgr0)\]\h:\[$(tput sgr0)\]\[\033[38;5;202m\][\w]\[$(tput sgr0)\]\[\033[38;5;11m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[$(tput sgr0)\]\\$ \[$(tput sgr0)\]"
+
+HISTCONTROL=erasedups
+HISTFILESIZE=100000
+HISTSIZE=10000
+
+shopt -s histappend
+shopt -s checkwinsize
+shopt -s extglob
+shopt -s globstar
+shopt -s checkjobs
+
+# ssh forwarding  
+alias ka='ssh-add'
+
+# init zoxide
+eval "$(zoxide init bash)"
+
+# default editor
+export EDITOR="vi"
+
+# aliases
+## open file aliases
+export PERSONAL_GIT=~/gitprojects/personal/
+alias ptodo='cd $PERSONAL_GIT && $EDITOR personal_notes/personal_todo.md'
+alias todo='cd $PERSONAL_GIT && $EDITOR todo.md'
+alias meet='cd $PERSONAL_GIT && $EDITOR notes/meetings/meeting-notes.md'
+alias meeting='cd $PERSONAL_GIT && $EDITOR notes/meetings/meeting-notes.md'
+alias server_setup='cd ~/gitprojects/server_setup/ && $EDITOR .'
+alias tmc='cd $PERSONAL_GIT && $EDITOR config/tmux/config_tmux'
+alias nvc='cd $PERSONAL_GIT && $EDITOR config/neovim/config_neovim'
+# jnal should open a file called the current date but formatted like 240307.md
+
+## common use aliases
+alias ssh='ssh -A'
+alias cd='z'
+alias la='ls -la'
+
+## git commands
+alias gf='git fetch'
+alias gp='git pull'
+alias gc='git commit'
+alias ga='git add $(pwd)'
+alias gl='git log'
+alias gs='git status -s'
+alias gss='git status'
+alias gd='git diff'
+alias gds='git diff --staged'
+alias lg='lazygit'
+
+## git push
+alias gP='git push'
+alias gpsh='git push'
+### auto git push
+alias gg='(cd ~/gitprojects/personal || cd ~/git-projects/personal || cd ~/git-stuff/personal) && git add . && git commit -m "autoupdate" && git push'
+
+## git checkout
+alias gch='git checkout'
+
+## tmux
+alias tm='tmux'
+alias tma='tmux attach -t'
+alias ta='tma'
+alias tml='tm ls'
+alias tmk='tmux kill-session -t'
+alias tmK='tmux kill-server'
+
+# home manager
+alias hms='cd ~/gitprojects/personal/config/nix/ && nix-shell --run "home-manager switch" && cd -'
+alias hmsb='cd ~/gitprojects/personal/config/nix/ && nix-shell --run "home-manager switch -b backup" && cd -'
+alias hme='$EDITOR ~/gitprojects/personal/config/nix/home.nix'
+alias nce='$EDITOR /etc/nixos/configuration.nix'
+
+
+# bluetooth
+alias btctl='bluetoothctl'
+
+# do this at the end so it's faster and if I cancel the rest of the bashrc was still set
+eval "$(ssh-agent)"
+# eval "$(ssh-add)" # uncomment for always adding it
