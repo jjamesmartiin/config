@@ -158,25 +158,25 @@ set shiftwidth=2
 
 
 " expirimental tmux navigator
+let g:tmux_navigator_no_mappings = 1
+
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-
-let g:tmux_navigator_no_mappings = 1
-let  g:tmux_navigator_no_wrap = 1
+" let  g:tmux_navigator_no_wrap = 1
 noremap <silent> <C-h> :<C-U>TmuxNavigateLeft<cr>
 noremap <silent> <C-j> :<C-U>TmuxNavigateDown<cr>
 noremap <silent> <C-k> :<C-U>TmuxNavigateUp<cr>
 noremap <silent> <C-l> :<C-U>TmuxNavigateRight<cr>
 noremap <silent> <C-/> :<C-U>TmuxNavigatePrevious<cr>
+"
 " mapping with meta 
-nnoremap <M-a> <C-w>h
-nnoremap <M-s> <C-w>j
-nnoremap <M-w> <C-w>k
-nnoremap <M-d> <C-w>l
-noremap <silent> <M-a> :<C-U>TmuxNavigateLeft<cr>
-noremap <silent> <M-s> :<C-U>TmuxNavigateDown<cr>
-noremap <silent> <M-w> :<C-U>TmuxNavigateUp<cr>
-noremap <silent> <M-d> :<C-U>TmuxNavigateRight<cr>
-
+nnoremap <M-left> <C-w>h
+nnoremap <M-down> <C-w>j
+nnoremap <M-up> <C-w>k
+nnoremap <M-right> <C-w>l
+noremap <silent> <M-left> :<C-U>TmuxNavigateLeft<cr>
+noremap <silent> <M-down> :<C-U>TmuxNavigateDown<cr>
+noremap <silent> <M-up> :<C-U>TmuxNavigateUp<cr>
+noremap <silent> <M-right> :<C-U>TmuxNavigateRight<cr>
