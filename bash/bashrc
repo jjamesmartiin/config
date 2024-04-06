@@ -52,7 +52,7 @@ alias ssh='ssh -A'
 alias cd='z'
 alias la='ls -la'
 
-## git commands
+# git commands
 alias gf='git fetch'
 alias gp='git pull'
 alias gc='git commit'
@@ -72,6 +72,12 @@ alias gg='(cd ~/gitprojects/personal || cd ~/git-projects/personal || cd ~/git-s
 
 ## git checkout
 alias gch='git checkout'
+
+## git subtree
+## Push / Pull / Merge Subtree
+alias gstP='git subtree push --prefix=config git@github.com:jjamesmartiin/config.git master --rejoin'
+alias gstp='git subtree pull --prefix=config git@github.com:jjamesmartiin/config.git master'
+alias gstm='git subtree merge --prefix=config git@github.com:jjamesmartiin/config.git master --rejoin'
 
 ## tmux
 alias tm='tmux'
