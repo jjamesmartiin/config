@@ -4,9 +4,13 @@
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 ```
 
-## 2. Clone repo and run
+## 2. Clone repo
 ```
 mkdir -p ~/gitprojects && cd ~/gitprojects && git clone git@github.com:jjamesmartiin/config.git
-cd config/ && nix-shell --run "home-manager switch -b backup"
+```
+
+## 3. Run to install home-manager and switch config 
+```
+cd ~/gitprojects/personal/config/ && nix-shell --run "home-manager switch -b backup"
 ```
 
