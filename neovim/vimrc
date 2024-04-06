@@ -186,3 +186,10 @@ noremap <silent> <M-Left>  :<C-U>TmuxNavigateLeft<cr>
 noremap <silent> <M-Down>  :<C-U>TmuxNavigateDown<cr>
 noremap <silent> <M-Up>    :<C-U>TmuxNavigateUp<cr>
 noremap <silent> <M-Right> :<C-U>TmuxNavigateRight<cr>
+
+
+" bind ctrl + shift + d to insert (date +'%y%m%d - %H:%M %p') 
+nnoremap <C-D> i<C-R>=strftime("%y%m%d")<CR>
+" do the same but from insert mode
+inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
+
