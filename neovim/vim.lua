@@ -17,6 +17,6 @@ require('glow').setup({
   height_ratio = 1,
 })
 
-require("ccryptor").setup({
-    dir_path = '~/gitprojects/personal_notes/secrets',
-})
+-- require("ccryptor").setup({
+--     dir_path = '~/gitprojects/personal_notes/secrets',
+-- })
