@@ -8,7 +8,8 @@
 " get a better status bar and color scheme
   " look into Lualine
   " look into lightline?
-" 
+  
+" make the fuzzy finder for live_grep be more like the one for find_files
 
 " --------------------------------------------------
 " * neovim configuration file notes:
@@ -189,7 +190,7 @@ noremap <silent> <M-Right> :<C-U>TmuxNavigateRight<cr>
 
 
 " bind ctrl + shift + d to insert (date +'%y%m%d - %H:%M %p') 
-nnoremap <C-D> i<C-R>=strftime("%y%m%d")<CR>
+" nnoremap <C-D> i<C-R>=strftime("%y%m%d")<CR>
 " do the same but from insert mode
 inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 

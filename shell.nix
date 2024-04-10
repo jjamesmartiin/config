@@ -14,6 +14,7 @@ let
   # We need to do this weird thing since otherwise the source link
   # somehow doesn't get picked up.
   # See https://github.com/ryantm/home-manager-template/issues/9
+  # this is a derivation to depend on the source 
   src-ref-pkg = pkgs.stdenv.mkDerivation {
     name = "source-ref-pkg";
     dontUnpack = true;
@@ -23,6 +24,7 @@ let
     '';
   };
 
+  # this is where the actual home-manager derivation is built and linked 
   home-manager = pkgs.buildEnv {
     name = "home-manager";
     paths = [

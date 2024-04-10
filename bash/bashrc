@@ -2,8 +2,11 @@
 # make something that will open a file with the current date in the format 240307.md
 # configure a nerdfont?
 
-
-
+# if don't have tput then don't do anyhting
+if ! command -v tput &> /dev/null
+then
+    return
+fi
 
 # If not running interactively, don't do anything
 case $- in
