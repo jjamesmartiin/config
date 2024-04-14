@@ -17,6 +17,13 @@ require('glow').setup({
   height_ratio = 1,
 })
 
+-- telescope config
+require('telescope').setup({
+  defaults = {
+
+  }
+})
+
 -- require("ccryptor").setup({
 --     dir_path = '~/gitprojects/personal_notes/secrets',
 -- })

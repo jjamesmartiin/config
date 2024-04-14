@@ -8,10 +8,16 @@
     vimAlias = true;
     vimdiffAlias = true;
     plugins = with pkgs.vimPlugins; [
+      # themes
+      onedark-vim 
+      tokyonight-nvim
+      rose-pine
+      kanagawa-nvim
+      everforest
+
       vim-nix # nix language
       vim-lsp # lsp
       telescope-nvim # fuzzy finder
-      onedark-vim # theme
       copilot-vim # copilot
       oil-nvim # OIL file manager, view link for help https://github.com/stevearc/oil.nvim?tab=readme-ov-file
       lazygit-nvim # git support 

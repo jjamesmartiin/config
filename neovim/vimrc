@@ -36,7 +36,7 @@ set splitright
 let mapleader = "\<Space>"
 
 " set the colorscheme
-colorscheme onedark
+colorscheme rose-pine
 
 " disable the annoying message at the beginning
 " renabled 240312 because I've had some files that got overwritten
@@ -62,9 +62,9 @@ nnoremap <Leader><Enter> :nohlsearch<CR> " telescope
 nnoremap <Leader>l :call ToggleSidenums()<CR>
 function! ToggleSidenums()
   if &number
-    set nonumber norelativenumber
+    set norelativenumber
   else
-    set number relativenumber
+    set relativenumber " number " used to use number when I was hiding these 
   endif
 endfunction
 
