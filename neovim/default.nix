@@ -10,10 +10,11 @@
     plugins = with pkgs.vimPlugins; [
       # themes
       onedark-vim 
-      tokyonight-nvim
-      rose-pine
-      kanagawa-nvim
-      everforest
+      # new themes
+      vim-monokai-pro
+      vim-monokai-tasty
+      vim-monokai
+      gruvbox
 
       vim-nix # nix language
       vim-lsp # lsp

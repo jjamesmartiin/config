@@ -36,7 +36,6 @@ set splitright
 let mapleader = "\<Space>"
 
 " set the colorscheme
-colorscheme rose-pine
 
 " disable the annoying message at the beginning
 " renabled 240312 because I've had some files that got overwritten

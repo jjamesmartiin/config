@@ -20,7 +20,7 @@ require('glow').setup({
 -- telescope config
 require('telescope').setup({
   defaults = {
-
+    
   }
 })
 
