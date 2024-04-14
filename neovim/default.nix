@@ -1,4 +1,7 @@
 { config, pkgs, ...}:
+let
+  link = config.lib.file.mkOutOfStoreSymlink;
+in
 {
   programs.ripgrep.enable = true;
   programs.fzf.enable = true;
