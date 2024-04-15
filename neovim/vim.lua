@@ -24,7 +24,7 @@ require('telescope').setup({
     layout_config = {
       mirror = true,
       prompt_position = 'bottom',
-      preview_height = 0.50,
+      preview_height = 0.65,
       width = 0.95,
       height = 0.95,
     }
