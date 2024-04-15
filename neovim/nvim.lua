@@ -31,6 +31,7 @@ require('telescope').setup({
   }
 })
 
+-- vim keybindings below 
 vim.cmd [[
 set splitbelow
 set splitright
