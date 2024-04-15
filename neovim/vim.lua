@@ -20,24 +20,16 @@ require('glow').setup({
 -- telescope config
 require('telescope').setup({
   defaults = {
-    layout_strategy = 'center',
+    layout_strategy = 'vertical',
     layout_config = {
+      mirror = false,
+      prompt_position = 'top',
       preview_width = 0.95,
       width = 0.95,
-      height = 0.7,
+      height = 0.95,
     }
   }
 })
-
--- require('telescope').setup({
---   defaults = {
---     layout_strategy = 'vertical',
---     layout_config = {
---       width = 0.95,
---       height = 0.95,
---     }
---   }
--- })
 
 -- require("ccryptor").setup({
 --     dir_path = '~/gitprojects/personal_notes/secrets',
