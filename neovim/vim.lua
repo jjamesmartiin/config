@@ -22,9 +22,9 @@ require('telescope').setup({
   defaults = {
     layout_strategy = 'vertical',
     layout_config = {
-      mirror = false,
-      prompt_position = 'top',
-      preview_width = 0.95,
+      mirror = true,
+      prompt_position = 'bottom',
+      preview_height = 0.50,
       width = 0.95,
       height = 0.95,
     }
