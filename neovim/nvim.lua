@@ -32,29 +32,21 @@ require('telescope').setup({
 })
 
 vim.cmd [[
-" set splits to open below and to the right
 set splitbelow
 set splitright
 
-" set the leader key
 let mapleader = "\<Space>"
 
-" set the colorscheme
 colorscheme gruvbox 
 
-" disable the annoying message at the beginning
-" renabled 240312 because I've had some files that got overwritten
-" disabling again this shit is so annyoing wtf 
 set noswapfile 
 
-" set mouse and clipboard
 " turning mouse off so that I can click in and it won't move my cursor
 set mouse=
 " set clipboard=unnamedplus
 set number relativenumber
 set scrolloff=5
 
-" set wrap
 set nowrap
 nnoremap <Leader>z :set wrap!<CR> 
 
@@ -135,7 +127,6 @@ nnoremap <Leader>F viw"0y<space>:Telescope grep_string<CR><Esc>
 nnoremap <Leader>f :Telescope live_grep<CR>
 nnoremap <Leader>p :Telescope find_files<CR>
 nnoremap <Leader>o :Telescope oldfiles<CR>
-
 
 " reload configuration
 nnoremap <Leader>R :source ~/.config/nvim/init.lua<CR>

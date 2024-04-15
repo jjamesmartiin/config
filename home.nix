@@ -14,16 +14,16 @@ in
   home = {
     username = builtins.getEnv "USER";
     homeDirectory = "/home/${builtins.getEnv "USER"}";
-    packages = [
+    packages = with pkgs; [
         # Add packages here, search at https://search.nixos.org/packages
-        pkgs.ranger # useful file manager?
-        pkgs.mdr # markdown renderer
-        pkgs.lazygit
+        ranger # useful file manager?
+        mdr # markdown renderer
+        lazygit
         
         # testing these
-        pkgs.ccrypt # encryption
+        ccrypt # encryption
 
-        pkgs.glow # markdown previewer
+        glow # markdown previewer
     ];
     
     stateVersion = "22.11";
