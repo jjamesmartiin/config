@@ -131,6 +131,8 @@ let g:copilot_no_tab_map = v:true
 nnoremap <Leader>F viw"0y<space>:Telescope grep_string<CR><Esc>
 nnoremap <Leader>f :Telescope live_grep<CR>
 nnoremap <Leader>p :Telescope find_files<CR>
+nnoremap <Leader>o :Telescope oldfiles<CR>
+
 
 " reload configuration
 nnoremap <Leader>R :source ~/.config/nvim/init.lua<CR>

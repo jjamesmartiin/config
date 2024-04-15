@@ -39,4 +39,17 @@ in
     extraConfig = builtins.readFile ./vimrc;
     extraLuaConfig = builtins.readFile ./vim.lua;
   };
+  programs.tmux = {
+    enable = true;
+    extraConfig = builtins.readFile ./tmux.conf;
+  };
+
+  home.file."nvimrc" = { 
+    enable = true;
+    source = link ./vimrc;
+  }
+  home.file.".nvim.lua" = { 
+    enable = true;
+    source = link ./nvim.lua;
+  }
 }
