@@ -1,3 +1,4 @@
+
 vim.api.nvim_set_keymap('n', '<S-CR>', '<cmd>lua require("telescope.builtin").find_files({find_command = {"rg", "--files", "--hidden", "--follow"}})<CR><cmd>tabnew<CR>', {noremap = true})
 -- vim.cmd [[source /nix/store/a5vpp4sz28wxrarbm9a4fpf46w7v3dja-nvim-init-home-manager.vim]]vim.api.nvim_set_keymap('n', '<S-CR>', '<cmd>lua require("telescope.builtin").find_files({find_command = {"rg", "--files", "--hidden", "--follow"}})<CR><cmd>tabnew<CR>', {noremap = true})
 -- oil setup
@@ -210,3 +211,4 @@ inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 
 -- todo for neovim
 -- ...
+-- add something to copy the current file path to the clipboard
