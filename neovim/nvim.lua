@@ -7,6 +7,7 @@ require("oil").setup({
 	  show_hidden = true
 	}
 })
+
 vim.keymap.set("n", "-", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
 
 -- glow setup: https://github.com/ellisonleao/glow.nvim?tab=readme-ov-file#setup
@@ -29,6 +30,11 @@ require('telescope').setup({
       height = 0.95,
     }
   }
+})
+
+-- ccryptor setup
+require('ccryptor').setup({
+  dir_path = '~/gitprojects/personal/personal_notes/journal/'
 })
 
 -- vim keybindings below 
@@ -191,8 +197,15 @@ noremap <silent> <M-Right> :<C-U>TmuxNavigateRight<cr>
 " nnoremap <C-D> i<C-R>=strftime("%y%m%d")<CR>
 " do the same but from insert mode
 inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
-]]
 
+
+" plugin manager
+" call plug#begin()
+" Plug 'kurotych/ccryptor.nvim'
+
+" call plug#end()
+" end plugin manager
+]]
 
 
 -- todo for neovim

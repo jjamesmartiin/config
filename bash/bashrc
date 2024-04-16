@@ -41,6 +41,7 @@ export EDITOR="vi"
 # aliases
 ## open file aliases
 export PERSONAL_GIT=~/gitprojects/personal/
+alias v='vi'
 alias ptodo='cd $PERSONAL_GIT && $EDITOR personal_notes/personal_todo.md'
 alias todo='cd $PERSONAL_GIT && $EDITOR todo.md'
 alias meet='cd $PERSONAL_GIT && $EDITOR notes/meetings/meeting-notes.md'
@@ -96,6 +97,11 @@ alias hmsb='cd ~/gitprojects/personal/config/ && nix-shell --run "home-manager s
 alias hme='cd ~/gitprojects/personal/ && $EDITOR ~/gitprojects/personal/config/home.nix'
 alias nce='cd ~/gitprojects/personal/ && $EDITOR /etc/nixos/configuration.nix'
 
+
+# personal journaling
+alias jnl='cd ~/gitprojects/personal/ && $EDITOR personal_notes/journal/journal.md'
+alias jnal='jnl'
+alias jn='jnl'
 
 # bluetooth
 alias btctl='bluetoothctl'
