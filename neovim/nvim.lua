@@ -25,7 +25,7 @@ require('telescope').setup({
       mirror = true,
       prompt_position = 'bottom',
       preview_height = 0.65,
-      width = 0.95,
+      width = 0.75,
       height = 0.95,
     }
   }
@@ -192,3 +192,8 @@ noremap <silent> <M-Right> :<C-U>TmuxNavigateRight<cr>
 " do the same but from insert mode
 inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 ]]
+
+
+
+-- todo for neovim
+-- ...
