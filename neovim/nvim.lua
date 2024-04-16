@@ -34,7 +34,7 @@ require('telescope').setup({
 
 -- ccryptor setup
 require('ccryptor').setup({
-  dir_path = '~/gitprojects/personal/personal_notes/journal/'
+  dir_path = '/home/jamesm/gitprojects/personal/personal_notes/journal/'
 })
 
 -- vim keybindings below 

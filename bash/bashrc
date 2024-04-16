@@ -49,7 +49,6 @@ alias meeting='cd $PERSONAL_GIT && $EDITOR notes/meetings/meeting-notes.md'
 alias server_setup='cd ~/gitprojects/server_setup/ && $EDITOR .'
 alias tmc='cd $PERSONAL_GIT && $EDITOR config/tmux/config_tmux'
 alias nvc='cd $PERSONAL_GIT && $EDITOR config/neovim/config_neovim'
-# jnal should open a file called the current date but formatted like 240307.md
 
 ## common use aliases
 alias ssh='ssh -A'
@@ -99,7 +98,7 @@ alias nce='cd ~/gitprojects/personal/ && $EDITOR /etc/nixos/configuration.nix'
 
 
 # personal journaling
-alias jnl='cd ~/gitprojects/personal/ && $EDITOR personal_notes/journal/journal.md'
+alias jnl='cd ~/gitprojects/personal/ && $EDITOR personal_notes/journal/journal.md.cpt'
 alias jnal='jnl'
 alias jn='jnl'
 
