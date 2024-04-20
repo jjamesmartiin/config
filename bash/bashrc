@@ -106,6 +106,10 @@ alias jn='jnl'
 # bluetooth
 alias btctl='bluetoothctl'
 
+# personal
+alias stocks='cd ~/gitprojects/personal/personal_notes/ && $EDITOR stocks-think_or_swim.md'
+
+
 # do this at the end so it's faster and if I cancel the rest of the bashrc was still set
 eval "$(ssh-agent)"
 # eval "$(ssh-add)" # uncomment for always adding it
