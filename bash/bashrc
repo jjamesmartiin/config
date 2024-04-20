@@ -41,7 +41,8 @@ export EDITOR="vi"
 # aliases
 ## open file aliases
 export PERSONAL_GIT=~/gitprojects/personal/
-alias v='vi'
+alias v='vim'
+alias sv="sudo -E vim"
 alias ptodo='cd $PERSONAL_GIT && $EDITOR personal_notes/personal_todo.md'
 alias todo='cd $PERSONAL_GIT && $EDITOR todo.md'
 alias meet='cd $PERSONAL_GIT && $EDITOR notes/meetings/meeting-notes.md'
