@@ -14,3 +14,8 @@ mkdir -p ~/gitprojects && cd ~/gitprojects && git clone git@github.com:jjamesmar
 cd ~/gitprojects/personal/config/ && nix-shell --run "home-manager switch -b backup"
 ```
 
+# Command to run on servers
+```
+mkdir -p ~/gitprojects && mkdir -p ~/gitprojects/personal/ && cd ~/gitprojects/personal/ && git clone https://github.com/jjamesmartiin/config.git && nix-shell --run "home-manager switch -b backup"
+```
+
