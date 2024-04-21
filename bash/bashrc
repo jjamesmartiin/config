@@ -67,6 +67,7 @@ alias gs='git status'
 alias gd='git diff'
 alias gds='git diff --staged'
 alias lg='lazygit'
+alias gu='ka && gf && gp'
 
 ## git push
 alias gP='git push'
