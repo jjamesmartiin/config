@@ -19,3 +19,10 @@ cd ~/gitprojects/personal/config/ && nix-shell --run "home-manager switch -b bac
 mkdir -p ~/gitprojects && mkdir -p ~/gitprojects/personal/ && cd ~/gitprojects/personal/ && git clone https://github.com/jjamesmartiin/config.git && nix-shell --run "home-manager switch -b backup"
 ```
 
+- sometimes home-manager doesn't want to install on a newer version of Nix: 
+```
+sudo mkdir -m 0755 -p /nix/var/nix/{profiles,gcroots}/per-user/$USER
+sudo chown -R $USER:nixbld /nix/var/nix/{profiles,gcroots}/per-user/$USER
+```
+
+
