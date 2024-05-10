@@ -215,3 +215,4 @@ inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 -- - add something to fold lines 
 -- make a way to get my home-manager/vim config onto servers easily without 
 --
+--make <leader>o open in normal mode and then <leaderr>O open in insert mode
