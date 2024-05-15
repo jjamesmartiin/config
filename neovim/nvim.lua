@@ -134,7 +134,7 @@ let g:copilot_no_tab_map = v:true
 nnoremap <Leader>F viw"0y<space>:Telescope grep_string<CR><Esc>
 nnoremap <Leader>f :Telescope live_grep<CR>
 nnoremap <Leader>p :Telescope find_files<CR>
-nnoremap <Leader>o :Telescope oldfiles<CR>
+nnoremap <Leader>o :Telescope oldfiles<CR><Esc>
 
 " reload configuration
 nnoremap <Leader>R :source ~/.config/nvim/init.lua<CR>
@@ -213,6 +213,8 @@ inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 -- ...
 -- add something to copy the current file path to the clipboard
 -- - add something to fold lines 
--- make a way to get my home-manager/vim config onto servers easily without 
+-- make a way to get my home-manager/vim config onto servers easily without cloning the whole repo
 --
---make <leader>o open in normal mode and then <leaderr>O open in insert mode
+-- make vim highlight the links like https:// etc in markdown docs
+--
+-- table of contents on demmand for a markdown file
