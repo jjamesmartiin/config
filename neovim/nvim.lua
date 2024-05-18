@@ -209,7 +209,7 @@ inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 ]]
 
 
--- todo for neovim
+-- todo for neovim | neovim todo
 -- ...
 -- add something to copy the current file path to the clipboard
 -- - add something to fold lines 
