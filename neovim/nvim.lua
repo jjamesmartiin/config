@@ -218,3 +218,5 @@ inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 -- make vim highlight the links like https:// etc in markdown docs
 --
 -- table of contents on demmand for a markdown file
+--
+-- look for a vim extension for doing media wiki text and see if I can get better closing tags? 
