@@ -115,3 +115,9 @@ alias stocks='cd ~/gitprojects/personal/personal_notes/ && $EDITOR stocks-think_
 # do this at the end so it's faster and if I cancel the rest of the bashrc was still set
 eval "$(ssh-agent)"
 # eval "$(ssh-add)" # uncomment for always adding it
+#
+#
+
+# 2fa aliases
+alias 2fa_prod='mv ~/.ssh/id_ed25519* ~/.ssh/cur_key/ && mv ~/.ssh/2fa_key/id_ed25519* ~/.ssh/'
+alias 2fa_mine='mv ~/.ssh/id_ed25519* ~/.ssh/2fa_key/ && mv ~/.ssh/cur_key/id_ed25519* ~/.ssh/'
