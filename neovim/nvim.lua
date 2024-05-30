@@ -220,3 +220,6 @@ inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 -- table of contents on demmand for a markdown file
 --
 -- look for a vim extension for doing media wiki text and see if I can get better closing tags? 
+-- make something to quickly open the new tab
+-- also make something to hold and then go to the next tab, like ctrl + ta make something to quickly open the new tab
+--  mayeb like alt + > or < ? 
