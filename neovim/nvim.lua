@@ -223,3 +223,6 @@ inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
 -- make something to quickly open the new tab
 -- also make something to hold and then go to the next tab, like ctrl + ta make something to quickly open the new tab
 --  mayeb like alt + > or < ? 
+--
+--  quick markdown TOC viewer and a way to jump to the section easily from vim
+--
