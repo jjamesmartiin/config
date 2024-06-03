@@ -39,6 +39,7 @@ in
 
       ccryptor-nvim
 
+      vim-markdown
     ];
   };
   home.file.".config/nvim/init.lua" = { 

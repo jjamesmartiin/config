@@ -38,6 +38,8 @@ require('ccryptor').setup({
   dir_path = '/home/jamesm/gitprojects/personal/personal_notes/journal/'
 })
 
+
+
 -- vim keybindings below 
 vim.cmd [[
 set splitbelow
@@ -198,6 +200,16 @@ noremap <silent> <M-Right> :<C-U>TmuxNavigateRight<cr>
 " nnoremap <C-D> i<C-R>=strftime("%y%m%d")<CR>
 " do the same but from insert mode
 inoremap <C-D> <C-R>=strftime("%y%m%d")<CR>
+
+
+" vim markdown
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_toc_autofit = 1
+let g:vim_markdown_follow_anchor = 1
+let g:vim_markdown_no_extensions_in_markdown = 1
+let g:vim_markdown_strikethrough = 1
+let g:vim_markdown_autowrite = 1
+
 
 
 " plugin manager
